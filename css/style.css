@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    color: white;
+    text-decoration: underline;
+    font-family: Arial;
+    transition: padding 0.3s;
+}
+
+a:hover{
+    padding: 4px 4px;
+    border-radius: 8px;
+}
+
+body{
+    text-align: center;
+    background-color: #aebec9;
+    font-size: 1.15rem;
+    color: #111827;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: #3d1f70;
+    width: 100%;
+    padding: 12px 0px;
+}
+
+main{
+    flex: 1;
+    padding: 20px;
+}
+
+footer{
+    background-color: #3d1f70;
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+hr{
+    border: none;
+    border-top: 2px solid black;
+}
+
+.link{
+    padding: 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    color: #111827;
+}    
+
+.linkgithub{
+    background-color: #aebec9;
+    display: inline-flex;
+    align-items: center;
+    padding: 2px;
+    border-radius: 6px;
+    border: 1px solid rgb(150, 148, 148);
+}
+
+.linkgithub img{
+    width: 35px;
+    height: 35px;
+    border-radius: 16px;
+}
+
+.caixa{
+    margin: 15px auto;
+    padding: 4px;
+    border: 2px solid black;
+    width: 80%;
+}
+
+/* .teste{
+    display: flex;
+    justify-content: end;
+} */
+
+.w{
+    color: white;
+}
+
+.caixa-2{
+    margin: 0px auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 4px;
+    border: 2px solid black;
+    width: 30%;
+}
+
+.cima{
+    padding: 8px;
+}
+
+.resp{
+    margin: 5px;
+    text-indent: 2px;
+    padding: 8px;
+}

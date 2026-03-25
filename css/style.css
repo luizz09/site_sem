@@ -17,7 +17,7 @@ a:hover{
 
 body{
     text-align: center;
-    background-color: #aebec9;
+    background-color: #D9CAB3;
     font-size: 1.15rem;
     color: #111827;
     display: flex;
@@ -26,18 +26,18 @@ body{
 }
 
 header{
-    background-color: #3d1f70;
+    background-color: #5E0B15;
     width: 100%;
     padding: 12px 0px;
 }
 
 main{
     flex: 1;
-    padding: 20px;
+    padding: 12px;
 }
 
 footer{
-    background-color: #3d1f70;
+    background-color: #5E0B15;
     width: 100%;
     padding: 15px 0px;
     text-align: center;
@@ -45,7 +45,9 @@ footer{
 
 hr{
     border: none;
-    border-top: 2px solid black;
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 0;
 }
 
 .link{
@@ -59,7 +61,7 @@ hr{
 }    
 
 .linkgithub{
-    background-color: #aebec9;
+    background-color: #D9CAB3;
     display: inline-flex;
     align-items: center;
     padding: 2px;
@@ -73,29 +75,17 @@ hr{
     border-radius: 16px;
 }
 
-.caixa{
-    margin: 15px auto;
-    padding: 4px;
-    border: 2px solid black;
-    width: 80%;
-}
-
-/* .teste{
-    display: flex;
-    justify-content: end;
-} */
-
 .w{
     color: white;
 }
 
-.caixa-2{
+.pergunta{
     margin: 0px auto;
     margin-top: 15px;
     margin-bottom: 5px;
-    padding: 4px;
+    padding: 6px;
     border: 2px solid black;
-    width: 30%;
+    width: fit-content;
 }
 
 .cima{

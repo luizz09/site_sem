@@ -97,3 +97,29 @@ hr{
     text-indent: 2px;
     padding: 8px;
 }
+
+.quadrado img{
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 9px;
+    border: 1px solid black;
+}
+
+.quadrado-2 img{
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 9px;
+    border: 1px solid black;
+    margin-top: 4px;
+}
+
+.quadrado_wheatstone img{
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 9px;
+    border: 1px solid black;
+    background-color: white;
+}

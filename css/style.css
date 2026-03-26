@@ -88,6 +88,10 @@ hr{
     width: fit-content;
 }
 
+.top{
+    margin-top: 8px;
+}
+
 .cima{
     padding: 8px;
 }
@@ -106,13 +110,21 @@ hr{
     border: 1px solid black;
 }
 
+.quadrado video{
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 9px;
+    border: 1px solid black;
+}
+
 .quadrado-2 img{
     width: 90%;
     max-width: 300px;
     height: auto;
     border-radius: 9px;
     border: 1px solid black;
-    margin-top: 4px;
+    margin-top: 8px;
 }
 
 .quadrado_wheatstone img{
@@ -122,4 +134,9 @@ hr{
     border-radius: 9px;
     border: 1px solid black;
     background-color: white;
+}
+
+.junto{
+    padding: 0px;
+    margin-top: 0px;
 }
